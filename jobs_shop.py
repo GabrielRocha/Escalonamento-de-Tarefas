@@ -39,7 +39,7 @@ class JobsShop():
     
     def print_time_machines(self):
         for machine in self.machines:
-            print machine.numero, machine.current_time
+            print "Maquina: %s \/ Tempo Total: %s" %(machine.numero, machine.current_time)
             
 
 if __name__ == '__main__':

@@ -5,5 +5,5 @@ class Machine():
     
     def __init__(self, numero):
         self.numero = numero
-        self.current = 0
+        self.current_time = 0
 
